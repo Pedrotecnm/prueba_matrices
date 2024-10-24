@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.pyc
+__pycache__/
+
+# Ignore the local database
+db.sqlite3
+
+# Ignore environment files
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore static and media files (if generated locally)
+staticfiles/
+media/
